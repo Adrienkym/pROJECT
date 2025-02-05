@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: black;
+  padding: 2rem;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  font-size: larger;
+  list-style: none;
+  height: 1cm;
+}
+
+nav ul li a {
+  color: white;
+}
