@@ -33,7 +33,7 @@ div {
   gap: 30px;
 }
 .book-list {
-  background: black;
+  background: white;
   color: gray;
   text-align: center;
   padding: 20px;
@@ -48,7 +48,7 @@ div {
 
 .category {
   width: 30%;
-  background: #eef;
+  background: black;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
@@ -68,4 +68,7 @@ div {
   height: auto;
   margin-bottom: 10px;
   border-radius: 10px;
+}
+#des {
+  text-align: left;
 }
