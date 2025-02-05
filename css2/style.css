@@ -20,7 +20,7 @@ nav ul li a {
 .profile-container {
     width: 60%;
     margin: 30px auto;
-    background: white;
+    background: gray;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
