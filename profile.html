@@ -1,22 +1,66 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Book Tracker</title>
+    <title>Profile - Book Tracker</title>
     <link rel="stylesheet" href="css2/style.css" />
-    <script src="scripts/scripts.js" defer></script>
   </head>
   <body>
     <header>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-
           <li><a href="profile.html">Profile</a></li>
-
           <li><a href="about-us.html">About</a></li>
         </ul>
       </nav>
     </header>
+
+    <main class="profile-container">
+      <section class="profile-header">
+        <img
+          src="images/profile-picture.png"
+          alt="User Profile Picture"
+          class="profile-img"
+        />
+        <h2>Username</h2>
+        <p>Reader</p>
+      </section>
+
+      <section class="profile-info">
+        <h3>My Reading Stats</h3>
+        <ul>
+          <li><strong>Books Read:</strong> 35</li>
+          <li><strong>Currently Reading:</strong> 2</li>
+          <li><strong>Wishlist:</strong> 10</li>
+        </ul>
+      </section>
+
+      <section class="book-history">
+        <h3>Recently Read</h3>
+        <div class="book">
+          <img
+            src="images/The Fall Of The King.jpeg"
+            alt="The Fall Of The King"
+          />
+          <div>
+            <h4>The Fall Of The King</h4>
+            <p>A dramatic tale of a ruler’s demise.</p>
+          </div>
+        </div>
+
+        <div class="book">
+          <img
+            src="images/Solo Leveling, Vol_ 4 (Novel) [Book].jpeg"
+            alt="Solo Leveling"
+          />
+          <div>
+            <h4>Solo Leveling</h4>
+            <p>A thrilling fantasy adventure.</p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
