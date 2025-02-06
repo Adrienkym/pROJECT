@@ -21,3 +21,9 @@
    git clone https://github.com/Adrienkym/pROJECT.git
 
 
+MIT License
+
+Copyright (c) 2025 Book Tracker
+   
+
+
