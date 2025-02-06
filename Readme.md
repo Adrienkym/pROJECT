@@ -13,3 +13,11 @@
 - **CSS3** - For styling and responsive design.
 - **JavaScript** - For dynamic interactions and local storage management.
 
+- 
+---
+
+## 📥 Installation & Setup
+1. **Clone the Repository**
+   git clone https://github.com/Adrienkym/Book-tracker.git
+
+
