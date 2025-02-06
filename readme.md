@@ -14,3 +14,8 @@
 - **HTML5** - For structuring the webpage.
 - **CSS3** - For styling and responsive design.
 - **JavaScript (Vanilla JS)** - For dynamic interactions and local storage management.
+
+## Installation & Setup
+ **Clone the Repository**
+   git clone https://github.com/Adrienkym/pROJECT.git
+
