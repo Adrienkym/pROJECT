@@ -1,11 +1,29 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const navLinks = document.querySelectorAll("nav ul li a");
-  const currentUrl = window.location.href;
-
-  navLinks.forEach((link) => {
-    if (currentUrl.includes(link.getAttribute("href"))) {
-      link.style.fontWeight = "bold";
-      link.style.textDecoration = "underline";
-    }
-  });
+  loadBooksFromStorage(); // ✅ Ensuring function exists before calling it
 });
+
+// ✅ Define displayBook FIRST before calling it
+function displayBook(book) {
+  const categoryElement = document.querySelector(`#${book.category}List`);
+
+  if (categoryElement) {
+    const bookElement = document.createElement("li");
+    bookElement.innerHTML = `
+            <div class="book">
+                <img src="${book.imageUrl}" alt="${book.title}" />
+                <div>
+                    <h3>${book.title}</h3>
+                    <p>${book.description}</p>
+                </div>
+            </div>
+        `;
+    categoryElement.appendChild(bookElement);
+  }
+}
+
+// ✅ Define loadBooksFromStorage AFTER displayBook exists
+function loadBooksFromStorage() {
+  let books = JSON.parse(localStorage.getItem("books")) || [];
+
+  books.forEach(displayBook); // Now this function is correctly defined before calling it
+}
