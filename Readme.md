@@ -18,6 +18,6 @@
 
 ## 📥 Installation & Setup
 1. **Clone the Repository**
-   git clone https://github.com/Adrienkym/Book-tracker.git
+   git clone https://github.com/Adrienkym/pROJECT.git
 
 
