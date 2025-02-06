@@ -22,7 +22,6 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* About Page Container */
 .about-container {
   width: 60%;
   margin: 30px auto;
@@ -32,7 +31,6 @@ nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* About Header */
 .about-header {
   text-align: center;
   margin-bottom: 20px;
@@ -43,7 +41,6 @@ nav ul li a:hover {
   color: #007bff;
 }
 
-/* Sections Styling */
 .about-content,
 .our-mission,
 .our-values,
@@ -61,7 +58,6 @@ p {
   line-height: 1.6;
 }
 
-/* Values Section */
 .our-values ul {
   list-style: none;
   padding: 0;
@@ -74,7 +70,6 @@ p {
   border-radius: 5px;
 }
 
-/* Contact Section */
 .contact a {
   color: grey;
   text-decoration: none;
