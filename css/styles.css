@@ -19,7 +19,7 @@ nav ul li a {
 }
 .summary {
   background: white;
-  background-image: url("../images/_.jpeg");
+  background-image: url(../images/_.jpeg);
   background-size: cover;
   color: white;
   padding: 15px;
