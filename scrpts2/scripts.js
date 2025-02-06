@@ -36,3 +36,16 @@ function addBookToHistory(title, description, imageUrl) {
 
   bookHistorySection.appendChild(bookDiv);
 }
+document
+  .querySelector(".profile-header")
+  .addEventListener("click", function () {
+    const title = prompt("Enter book title:");
+    const description = prompt("Enter book description:");
+    const imageUrl = prompt("Enter book image URL:");
+
+    if (title && description && imageUrl) {
+      addBookToHistory(title, description, imageUrl);
+    } else {
+      alert("All fields must be filled!");
+    }
+  });
