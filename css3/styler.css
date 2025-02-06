@@ -17,3 +17,70 @@ ul {
 nav ul li a {
   color: white;
 }
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* About Page Container */
+.about-container {
+  width: 60%;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Header */
+.about-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-header h1 {
+  font-size: 32px;
+  color: #007bff;
+}
+
+/* Sections Styling */
+.about-content,
+.our-mission,
+.our-values,
+.contact {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: grey;
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Values Section */
+.our-values ul {
+  list-style: none;
+  padding: 0;
+}
+
+.our-values ul li {
+  background: #e9ecef;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+.contact a {
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
