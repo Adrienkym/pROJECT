@@ -19,3 +19,9 @@
  **Clone the Repository**
    git clone https://github.com/Adrienkym/pROJECT.git
 
+
+ ## MIT License
+
+## Copyright (c) 2024 Book Tracker
+
+
